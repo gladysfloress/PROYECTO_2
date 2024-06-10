@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero</title>
+    <script src="atm.css"></script>
+    <link rel="stylesheet" href="atm.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Encode+Sans+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+</head>
+<body class="nanum-myeongjo-regular">
+    <main>
+        <div class="vision">
+            <p>
+                Seremos el proveedor preferido de servicios financieros específicos en nuestras comunidades 
+                basándonos en relaciones sólidas con los clientes. Nuestra mision es ser una institución de 
+                excelencia merecedora de la confianza de la sociedad por lograr el cabal cumplimiento de su misión, 
+                por su actuación transparente, así como por su capacidad técnica y compromiso ético.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="principal">
+            <h1>BIENVENIDO</h1>
+        <div>
+            <label for="username"><h4>Ingresa tu usuario:</h4></label>
+            <input type="text" name="username" id="username" placeholder="Escribe tu usuario">
+        </div>
+
+        <div>
+            <label for="password"><h4>Ingresa tu contraseña:</h4></label>
+            <input type="password" name="password" id="password" placeholder="Escribe tu contraseña">
+        </div>
+
+        <button id="dtb_login" onclick="login()">
+            Iniciar sesion
+        </button>
+
+        <p id="mensaje"></p>
+        
+        
+        <h6 onclick="login()">¿No tienes usuario?</h6>
+        
+    </footer>
+    <script src="atm.js"></script>
+</body>
+</html>

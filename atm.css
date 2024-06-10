@@ -1,0 +1,40 @@
+body {
+    background-image: url('https://besthqwallpapers.com/Uploads/26-3-2017/14789/thumb2-modern-architecture-skyscrapers-business-centers-modern-buildings.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    display: inline-block;
+    background-color: white;
+    align-content:center;
+    text-align: center;
+    color: black;
+    padding: 40px;
+    margin-left: 40%;
+    margin-top: 20%;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+.vision {
+    margin-top: 110%;
+    margin-left: 2%;
+    color: white;
+}
+
+.nanum-myeongjo-regular {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+  }
+  
